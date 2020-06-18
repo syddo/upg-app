@@ -55,17 +55,17 @@ export default class MenuBuilder {
 
   buildDarwinTemplate() {
     const subMenuAbout: DarwinMenuItemConstructorOptions = {
-      label: 'Electron',
+      label: 'Unison Program Generator App',
       submenu: [
         {
-          label: 'About ElectronReact',
+          label: 'About the UPG App',
           selector: 'orderFrontStandardAboutPanel:'
         },
         { type: 'separator' },
         { label: 'Services', submenu: [] },
         { type: 'separator' },
         {
-          label: 'Hide ElectronReact',
+          label: 'Hide UPG',
           accelerator: 'Command+H',
           selector: 'hide:'
         },
